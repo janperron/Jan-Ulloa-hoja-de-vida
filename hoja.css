@@ -1,36 +1,44 @@
 .imagen1{
-  width: 100px;
+  width: 80px;
   height: auto;
-  background-color: black;
+
 
 }
+
 .imagen {
  background-color: rgb(216, 215, 222);
  width: 200px;
  height: auto;
     
 }
+
 .imagen2{
   width: 50px;
   height: auto;
 }
+
 .imagen3{
   width: 50px;
   height: auto;
 }
+
 body{
 background-image: url(imagenes/lat.jpg);
 background-size: cover;
 }
+
 main {
   color: rgb(255, 255, 255);
 }
+
 i {
   color: rgb(0, 255, 153);
 }
+
 ul{
   color: white;
 }
+
 a{
   color: rgb(248, 0, 0);
 }
@@ -38,3 +46,41 @@ a{
 h2{
   color: rgb(249, 255, 252);
 }
+
+main {
+  color: whitesmoke;
+  }
+   
+  ul {
+      color: whitesmoke;
+  }
+     
+  nav ul {
+      list-style-type: none; /* Elimina los puntos de lista */
+      margin: 0; /* Elimina el margen predeterminado */
+      padding: 0; /* Elimina el relleno predeterminado */
+      text-align: right;
+  }
+     
+  nav ul li {
+      display: inline; /* Hace que los elementos de la lista aparezcan en línea */
+      margin-right: 30px; /* Espacio entre los elementos de la lista */
+  }
+     
+  nav ul li:last-child {
+      margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+  }
+     
+  nav ul li a {
+      text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+      color: whitesmoke; /* Color del texto de los enlaces */
+      padding: 10px; /* Espacio alrededor del texto de los enlaces */
+  }
+     
+  nav ul li a:hover {
+      background-color: #504c4c; /* Cambia el color de fondo cuando se pasa el cursor sobre los enlaces */
+  }
+  nav{
+    justify-content: center;
+    display: flex;
+  }
