@@ -84,3 +84,32 @@ main {
     justify-content: center;
     display: flex;
   }
+
+  .container {
+    text-align: center; 
+  }
+  
+  .container img {
+    width: 15%; 
+  }
+   {
+    display: flex;
+    min-height: 100vh; 
+    justify-content: center; 
+    align-items: center;
+  }
+  .container2{
+   text-align: center;
+    
+  }
+  .container2{
+    color: whitesmoke;
+  }
+  .container3{
+    text-align: center;
+    color: whitesmoke;
+  }
+  .container4{
+    text-align: center;
+    color: whitesmoke;
+  }
